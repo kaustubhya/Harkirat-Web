@@ -98,17 +98,3 @@
 // console.log(ans);
 
 
-// Q. Pattern
-
-function createPattern(numOfRows) {
-    for(var i = 0; i < numOfRows; i++) {
-        var stringToPrint = "";
-        for(var j = 0; j < i + 1; j++) {
-            stringToPrint = stringToPrint + "**"
-        }
-        console.log(stringToPrint);
-    }
-}
-
-createPattern(1);
-
